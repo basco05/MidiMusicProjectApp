@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="76c6d3d3-0297-45cd-88f6-cbb0faf46237" name="UMLClassDiagram1" linkedPackageId="b1dcda1a-43b2-4a6a-ab0f-d3cbf037561b" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="5725e389-7ba6-4f0b-8f29-4ea487c73ffe">
+      <profileInstance Id="b317f329-9982-4df1-bb16-27b162382751" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e920f575-9f7f-4549-8da0-4fa04b50db0e">
+      <profileInstance Id="eb9b4f25-84b6-4e99-9352-a4949b51e855" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6d854da8-2dec-4103-a0ef-b9640c2412e5" name="NotenBalk" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d7d23786-b31c-49a9-81d6-54185a0fad70" />
+        <targetEnds>
+          <association Id="1b94171d-f247-4016-902e-c2be210104ef" isDerived="false" sourceEndRoleName="NotenBalk" targetEndRoleName="Noot" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b02d54d7-c72e-4018-bca0-924d5b643c34" LastKnownName="Noot" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="485861bc-27e5-4948-a10c-7160d35f789a" name="NotenBalk" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="712e3806-8676-4597-a54d-69ccffe204c0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d51d571b-170b-4902-8785-63e7bd287973" name="Noot" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="c8b8f02c-b966-4eeb-9db8-7ec57c0b8e5f" name="Lower" value="n">
+                      <elementDefinition Id="e2c41d5d-0778-4ade-9948-741822a590bd" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="90e7a305-628f-4511-9b34-28efada1c951" name="Upper" value="n">
+                      <elementDefinition Id="4a12ac8b-9f2e-4081-8182-593837268efb" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="a6df56be-9dd3-46fa-a8c9-039389d58ac1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1d074a8f-24f0-4b6a-ab7b-7d76b8d10343" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5291b335-14b9-4f14-aa1e-b7a2bf92589c" name="NootFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6a252679-b91f-4ba8-b2e7-6602c87ddf4c" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="49feda01-1e0e-40df-85d4-a52e182ed97a" name="NotenBalkBuilder" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a38dc1ee-80ae-4294-ad02-b3df8a5245ba" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a9dfb62f-d9f4-40a1-a19b-25d8b3a826f4" name="MidiFileReader" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="59ca301f-0af5-4f92-af34-0662393afbf9" />
+        <generalsInternal>
+          <generalization Id="4ed11389-39ae-421e-955c-5eb267db9d3a" isSubstitutable="false">
+            <classMoniker Id="4fbebbee-f862-4ebb-bbfe-994b0a99bfac" LastKnownName="FileReader" />
+            <elementDefinition Id="3b6458f9-5576-49c4-893b-8f0e2f6c772b" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b02d54d7-c72e-4018-bca0-924d5b643c34" name="Noot" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7365e924-946e-405b-bacb-7e624ca6533c" />
+        <ownedOperationsInternal>
+          <operation Id="1a10322d-2460-43bd-aa1d-611b5f39b806" name="Clone" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b123914c-639d-4f94-b455-b05edd5551ab" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="af0b9033-24a2-4159-b9c9-909585579e53" name="LilyPondFileReader" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="00ea5d16-22e7-43b9-9b78-9f6c1d2bddc1" />
+        <generalsInternal>
+          <generalization Id="a13d417e-b18a-45de-91d8-85bedc9ec723" isSubstitutable="false">
+            <classMoniker Id="4fbebbee-f862-4ebb-bbfe-994b0a99bfac" LastKnownName="FileReader" />
+            <elementDefinition Id="54cb7376-d1c9-4a8d-b5ed-9f686b114002" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4fbebbee-f862-4ebb-bbfe-994b0a99bfac" name="FileReader" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="68d0baed-ed3d-4d1e-9aae-f1cfcd533acc" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="cef7c95d-b347-485e-9a1c-9b35e0aa3130" name="MusicApp" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7bb6b0b9-ed16-4875-925f-4fb46ad330b9" />
+        <targetEnds>
+          <association Id="b8c41908-5226-4e17-a988-45e326040c0d" isDerived="false" sourceEndRoleName="MusicApp" targetEndRoleName="FileReader" isLeaf="false" isAbstract="false">
+            <classMoniker Id="4fbebbee-f862-4ebb-bbfe-994b0a99bfac" LastKnownName="FileReader" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3d3c1249-103c-4cab-81cb-c56b1dd7edd0" name="MusicApp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8bd39c52-c2c2-458c-b1e7-bdc8ba24cbf5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b3962054-749c-4b74-861d-fb8d27248b4c" name="FileReader" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c6985759-8da6-4d6a-bdec-9576bd8b421e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="441ad2a6-e59e-42f9-a258-9862484596c8" />
+          </association>
+          <association Id="c8429ff6-6d83-41ff-8f60-a9a9a258e741" isDerived="false" sourceEndRoleName="MusicApp" targetEndRoleName="NotenBalkBuilder" isLeaf="false" isAbstract="false">
+            <classMoniker Id="49feda01-1e0e-40df-85d4-a52e182ed97a" LastKnownName="NotenBalkBuilder" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6843a3a2-927d-4454-b1ca-cb77f5eb80af" name="MusicApp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e37a8602-19d9-4fbe-b641-fff19816ca4f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b4d95a94-dead-444f-971b-2650aa5ed9aa" name="NotenBalkBuilder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f3183c74-bb2a-4561-a57d-9252da10194b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e3ef1519-f0d6-424a-9549-71dcb22d4e7a" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="721b0208-d0dd-4de8-bf30-b697d5dd0427" name="MusicPlayer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fd45967c-d8d4-4144-ba04-a6b282562a0d" />
+        <targetEnds>
+          <association Id="26b8fe2e-329a-48cd-8614-81063140f267" isDerived="false" sourceEndRoleName="MusicPlayer" targetEndRoleName="MusicApp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="cef7c95d-b347-485e-9a1c-9b35e0aa3130" LastKnownName="MusicApp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7167b012-3d7c-44ad-851e-8525650ff8de" name="MusicPlayer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="39231dc5-4420-42b9-b732-8a781fa2bfd7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="af8d1c9e-ad81-46ce-9fa1-d3129a570273" name="MusicApp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1c0af877-725c-4e4a-9490-aea245602cb8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f1e6854c-51bb-48df-8bd9-cc91dcf8fe67" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="b1dcda1a-43b2-4a6a-ab0f-d3cbf037561b" name="ModelingProject2">
+    <elementDefinition Id="8647b10a-aa66-40be-9120-1ceee22c0508" />
+  </package>
+</logicalClassDesignerModel>
